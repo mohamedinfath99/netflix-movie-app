@@ -1,0 +1,97 @@
+.featured{
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.7)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZB_dYdfCfdNut88r2fjPM_bRNR7Uaq_0nv_8vNMC26wH-i8g33n7hr0OEaAEZ3mvxqV7HVoFzHmtPIrTSBbJbIRg-QTg29cyeRQVSSI4XwhoXYlDh2-HO22Rkr6P6CUXHdWyluPKFz_e3ldiwApZ_5bXdxyFimPsD1kDlJodR3OBiybPDlGLRkTtF1A/s0/HDgallery%20Varisu%20HD%20Stills%20%282%29.jpeg");
+    
+    .category{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+
+
+        select {
+            cursor: pointer;
+            background-color: var(--main-color);
+            border: 1px solid white;
+            color: white;
+            padding: 5px;
+            margin-left: 20px;
+
+        }
+    }
+
+    .img{
+        max-width: 100%;
+        height: auto;
+        opacity: 0.1;
+        
+        
+    }
+
+
+    .info{
+        width: 35%;
+        position: absolute;
+        left: 50px;
+        bottom: 100px;
+        color: white;
+        font-weight: bold;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        img{
+            width: 400px;
+
+        }
+
+        .desc {
+            margin: 20px 0px;
+        }
+
+
+        .buttons{
+            display: flex;
+            gap: 20px;
+
+
+            button{
+                padding: 8px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 400;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                gap: 5px;
+
+
+                &.play{
+                    background-color: white;
+                    color: var(--main-color);
+                }
+
+
+                &.more{
+                    background-color: gray;
+                    color: white;
+                }
+                
+            }
+        }
+    }
+}
