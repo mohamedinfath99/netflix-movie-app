@@ -16,6 +16,7 @@ const Navbar = () => {
 
     return (
         <div className={isScrolled ? "navbar scrolled" : "navbar" }>
+
             <div className="container">
 
                 <div className="left">
@@ -29,7 +30,9 @@ const Navbar = () => {
 
                 </div>
 
+
                 <div className="right">
+
                     <Search className='icon' />
                     <span>Kid</span>
                     <Notifications className='icon' />
@@ -44,17 +47,12 @@ const Navbar = () => {
                         </div>
 
                     </div>
+
                 </div>
 
             </div>
-
         </div>
     )
 }
 
 export default Navbar
-
-
-
-
-// 
